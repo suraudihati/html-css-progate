@@ -61,5 +61,9 @@
       font-size: 20px;
     }
 
+    .top-wrapper, .team-wrapper, .message-wrapper, .footer {
+        width: 100%;
+        margin-bottom: 50px;
+      }
 
 }

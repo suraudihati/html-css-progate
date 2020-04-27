@@ -32,4 +32,8 @@
         right: 0;
     }
 
+    .email, .facebook, .twitter {
+        width: 100%;
+    }
+
 }

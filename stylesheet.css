@@ -14,6 +14,11 @@
     margin: 0 auto;
 }
 
+.clear {
+  clear: left;
+}
+
+
 /* Bagian header */
 
 header {
@@ -69,21 +74,193 @@ header {
 
 /*Bagian Top Wrapper*/
 .top-wrapper {
-    padding: 180px 0 100px 0;
+  padding: 180px 0 100px 0;
     background-image: url("img-top-wrapper2.jpeg");
     background-size: cover;
-    color: white;
     text-align: center;
 }
 
-.top-wrapper h1 {
-    opacity: 0.7;
-    font-size: 45px;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
+.top-wrapper .heading {
+  margin-bottom: 20px;
 }
-  
+
+.top-wrapper .heading h3 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  color: white;
+  opacity: 0.8;
+}
+
 .top-wrapper p {
-    opacity: 0.7;
-    margin-bottom: 3px;
+  font-size: 14px;
+  color: white;
 }
+
+.top-wrapper .btn {
+  display: inline-block;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+}
+
+
+.email{
+  background-color: #5af542;
+  width: 25%;
+  margin-bottom: 20px;
+  animation-name: a_satu;
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+
+.facebook {
+  background-color: #4263f5;
+  width: 30%;
+  margin-top: 20px;
+  margin-right: 20px;
+  animation-name: a_dua;
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+
+.twitter {
+  background-color: #42d7f5;
+   width: 30%;
+  margin-top: 20px;
+  margin-right: 20px;
+  animation-name: a_tiga;
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+
+@keyframes a_satu {
+  0%   {width: 25%; opacity: 0;}
+  40%  {width: 100%; opacity: 1;}
+  75%  {width: 50%; opacity: 0.5;}
+  100% {width: 25%; opacity: 1;}
+}
+
+@keyframes a_dua {
+  0%   {width: 30%; opacity: 0;}
+  40%  {width: 100%; opacity: 1;}
+  75%  {width: 50%; opacity: 0.5;}
+  100% {width: 30%; opacity: 1;}
+}
+
+@keyframes a_tiga {
+  0%   {width: 30%; opacity: 0;}
+  40%  {width: 100%; opacity: 1;}
+  75%  {width: 50%; opacity: 0.5;}
+  100% {width: 30%; opacity: 1;}
+}
+
+/*Bagian Team Wrapper*/
+.team-wrapper{
+  padding-bottom:80px;
+  background-color:#f7f7f7;
+  height:642px;
+  width: 100%;
+  text-align: center;
+}
+.heading{
+  padding-top:30px;
+  padding-bottom:50px;
+}
+.team-wrapper h2:after{
+    content:"\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+    text-decoration-thickness:3px;
+}
+.heading h2{
+  font-size:43px;
+  font-weight: 400;
+  color: #353b46;
+  font-family:sans-serif;
+  line-height:2;
+}
+.heading-team{
+font-weight:600;
+font-family:cursive;
+background:#37474f;
+color:#fff;
+padding:0 10px;
+}
+.heading-team:hover{
+  background:  #78909c;
+}
+.team{
+  position:relative;
+  min-height:1px;
+  padding:1px 15px 1px 15px;
+  float:left;
+  width:20%;
+}
+.team-icon img{
+  width:100%;
+}
+.team-icon img:hover{
+  background-color:black;
+  opacity: 0.3;
+}
+.team-icon p{
+  font-size:1.3em;
+  color: #212f3c;
+  font-family: fantasy;
+  padding-top:15px;
+}
+.txt-contents{
+  font-size:1em;
+  color: #424949 ;
+  font-family: fantasy;
+  padding-top:15px;
+}
+.txt-contents .fa{
+  font-size:11px;
+  color:#424949;
+}
+
+/*Bagian message wrapper*/
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  text-align: center;
+    padding-bottom: 80px;
+}
+
+.message-wrapper .container {
+  padding: 60px 0;
+} 
+
+.message-wrapper .heading h2 {
+  font size: 36px;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+/*Bagian footer*/
+footer img {
+  width: 125px;
+}
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+footer {
+  padding-top: 30px;
+}  

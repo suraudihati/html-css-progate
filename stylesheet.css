@@ -23,9 +23,13 @@
 
 header {
     height: 100px;
+    width: 100%;
     background: #34495e;
     padding: 0 20px;
     color: white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
 .logo {
@@ -166,6 +170,7 @@ header {
   height:642px;
   width: 100%;
   text-align: center;
+  border-bottom: 1px solid #eee;
 }
 .heading{
   padding-top:30px;
@@ -236,7 +241,7 @@ padding:0 10px;
 } 
 
 .message-wrapper .heading h2 {
-  font size: 36px;
+  font-size: 36px;
 }
 
 .message {

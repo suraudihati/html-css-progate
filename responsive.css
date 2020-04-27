@@ -36,4 +36,30 @@
         width: 100%;
     }
 
+    .top-wrapper, .team-wrapper, .message-wrapper, .footer {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+
+
+
+}
+
+/*Untuk tablet*/
+
+@media all and (max-width: 1000px) {
+    .team {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+    
+    .heading h2 {
+      font-size: 20px;
+    }
+
+
 }
